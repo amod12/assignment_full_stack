@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from "react-router-dom";
-import Register from './sharedScreen/register';
-import Login from './sharedScreen/login';
+import Register from './auth/register';
+import Login from './auth/login';
 
 const AllRoute = () => {
   return (
